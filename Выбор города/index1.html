@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Выбор города
+  </title>
+  <link rel="stylesheet" href="./Css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="city-search">
+    <h1 class="city-search__first-title">
+      Выбор города
+    </h1>
+    <h2 class="city-search__second-title">
+      <section>
+        <input id="search" class="city-search__second-title__input" placeholder="Введите город" type="text">
+        <button id='button' class="city_search__second-title__button" type="submit">Найти город</button>
+      </section>
+    </h2>
+    <div class="city-search__annotation">
+      Если объявлений в выбранном городе нет, посмотрите в соответствующем регионе
+    </div>
+    <div class="city-search__indent-list">
+      <span class="city-search__indent-list__russia">Россия</span> <span class="city-search__indent-list__catalog">полный
+        каталог обьявлений</span>
+    </div>
+  </div>
+  <div class="city-list">
+    <div class="city-list__wrapper">
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">А</li>
+        <li class="city-list__wrapper-list__item">Абакан</li>
+        <li class="city-list__wrapper-list__item">Анадырь</li>
+        <li class="city-list__wrapper-list__item">Архангельск</li>
+        <li class="city-list__wrapper-list__item">Астрахань</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">Б</li>
+        <li class="city-list__wrapper-list__item">Барнаул</li>
+        <li class="city-list__wrapper-list__item">Белгород</li>
+        <li class="city-list__wrapper-list__item">Биробиджан</li>
+        <li class="city-list__wrapper-list__item">Благовещенск</li>
+        <li class="city-list__wrapper-list__item">Брянск</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">В</li>
+        <li class="city-list__wrapper-list__item">Владивосток</li>
+        <li class="city-list__wrapper-list__item">Владикавказ</li>
+        <li class="city-list__wrapper-list__item">Владимир</li>
+        <li class="city-list__wrapper-list__item">Волгоград</li>
+        <li class="city-list__wrapper-list__item">Вологда</li>
+        <li class="city-list__wrapper-list__item">Воронеж</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">Г</li>
+        <li class="city-list__wrapper-list__item">Горно-Алтайск</li>
+        <li class="city-list__wrapper-list__item">Грозный</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">Д</li>
+        <li class="city-list__wrapper-list__item">Днепропетровск</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">Е</li>
+        <li class="city-list__wrapper-list__item">Екатеринбург</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">И</li>
+        <li class="city-list__wrapper-list__item">Иваново</li>
+        <li class="city-list__wrapper-list__item">Ижевск</li>
+        <li class="city-list__wrapper-list__item">Иркутск</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">М</li>
+        <li class="city-list__wrapper-list__item">Магадан</li>
+        <li class="city-list__wrapper-list__item">Мурманск</li>
+        <li class="city-list__wrapper-list__item">Москва</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">Н</li>
+        <li class="city-list__wrapper-list__item">Новосибирск</li>
+        <li class="city-list__wrapper-list__item">Новокузнецк</li>
+        <li class="city-list__wrapper-list__item">Нижневартовск</li>
+      </ul>
+      <ul class="city-list__wrapper-list">
+        <li class="city-list__wrapper-list__item_big">С</li>
+        <li class="city-list__wrapper-list__item">Санкт-Петербург</li>
+        <li class="city-list__wrapper-list__item">Саратов</li>
+        <li class="city-list__wrapper-list__item">Самара</li>
+        <li class="city-list__wrapper-list__item">Самара</li>
+        <li class="city-list__wrapper-list__item">Саранск</li>
+        <li class="city-list__wrapper-list__item">Салехард</li>
+        <li class="city-list__wrapper-list__item">Севастополь</li>
+      </ul>
+    </div>
+  </div>
+  <div class="error hidden-error" id="error">
+    Ничего не найдено
+  </div>
+  <script src="libs/jquery-3.6.0.min.js"> </script>
+  <script src="./main_copy.js"> </script>
+</body>
+
+</html>
