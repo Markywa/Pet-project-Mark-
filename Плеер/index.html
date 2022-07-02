@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="player-container">
+            <div class="img-container">
+                <img src="img/oxy1.jpg" id="img" alt="Art">
+            </div>
+    
+            <h2 id="title">Название песни</h2>
+            <h3 id="artist">Исполнитель</h3>
+            <audio src="mp3/Oxxxymiron - Африканские бусы.mp3" style="display: none" controls></audio>
+            <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+                    <div class="duration-wrapper">
+                        <span id="current-time">0:00</span>
+                        <span id="duration">2:06</span>
+                    </div>
+                
+                <div class="player-controls">
+                    <i class="fa-solid fa-backward" id="prev" title="previous"></i>
+                    <i class="fa-solid fa-play main-button" id="play" title="play"></i>
+                    <i class="fa-solid fa-forward" id="next" title="Next"></i>
+                </div>
+                
+            </div>
+        </div>
+        <script src="main.js"></script>
+        <script src="https://kit.fontawesome.com/920f582b95.js" crossorigin="anonymous"></script>
+    </body>
+</html>
