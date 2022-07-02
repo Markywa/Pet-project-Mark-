@@ -60,7 +60,6 @@ function nextSong(){
     {
         songIndex = 0;
     }
-   
     loadSong(songs[songIndex]);
     playSong();
 }
@@ -91,10 +90,9 @@ function updateProgessBar(e) {
     if (isPlaying)
     {
         const {duration, currentTime} = e.srcElement;
-
+        console.log(duration, currentTime);
         const progressPercent = (currentTime / duration) * 100;
         progress.style.width = `${progressPercent}%`;
-
         const durationMinutes = Math.floor(duration / 60);
         let durationSeconds = Math.floor(duration % 60);
         if (durationSeconds < 10)

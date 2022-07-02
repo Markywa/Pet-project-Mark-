@@ -112,8 +112,8 @@ span
 .player-controls
 {
     position: relative;
-    top: 10px;
-    left: 113px;
+    /* top: 10px; */
+    left: 128px;
     width: 200px;
 }
 
